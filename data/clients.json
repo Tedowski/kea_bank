@@ -1,0 +1,357 @@
+{
+    "data": {
+        "37111111": {
+            "name": "Jon",
+            "lastName": "Doe",
+            "email": "teddcz@gmail.com",
+            "password": "$2y$10$\/wmTvx7wbmCgBrSWm6aoVO1TrZjRz3QjlY5nbP8E4LdRAAeZejJIe",
+            "cpr": "0101011234",
+            "active": true,
+            "lastLoginAttempt": 1550235854,
+            "activationKey": "ABC123",
+            "accounts": {
+                "5c63e61939db5": {
+                    "balance": 56099,
+                    "type": "main",
+                    "currency": "DKK",
+                    "main": 1,
+                    "card": 8898519365943263
+                },
+                "5c63e61939ec9": {
+                    "balance": 20000,
+                    "type": "saving",
+                    "currency": "DKK",
+                    "main": 0,
+                    "card": 1093165907032374
+                },
+                "5c6ecc98327be": {
+                    "balance": 0,
+                    "type": "loan",
+                    "currency": "DKK",
+                    "main": 0,
+                    "card": 7704956366245437
+                },
+                "5c6ecce76c60c": {
+                    "balance": 0,
+                    "type": "saving",
+                    "currency": "USD",
+                    "main": 0
+                },
+                "5c76d4a8cdd6d": {
+                    "balance": 0,
+                    "type": "saving",
+                    "currency": "USD",
+                    "main": 0
+                }
+            },
+            "transactions": {
+                "5c66b8ce68069": {
+                    "date": 1550235854,
+                    "amount": "10",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "Groceries"
+                },
+                "5c6efac9b7b63": {
+                    "date": 1550777033,
+                    "amount": "10000",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "Thanks for yesterday"
+                },
+                "5c71ff22e3a10": {
+                    "date": 1550974754,
+                    "amount": "1000",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "99999999",
+                    "message": ""
+                },
+                "5c720774f09fd": {
+                    "date": 1550976884,
+                    "amount": "1000",
+                    "direction": "out",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37222222",
+                    "message": "lmfao"
+                },
+                "5c72aeb59b784": {
+                    "date": 1551019701,
+                    "amount": "1",
+                    "direction": "out",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37222222",
+                    "message": "lol"
+                },
+                "5c72fa3062d80": {
+                    "date": 1551039024,
+                    "amount": 500,
+                    "direction": "out",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37222222",
+                    "message": "Request"
+                },
+                "5c72fafa7839b": {
+                    "date": 1551039226,
+                    "amount": 300,
+                    "direction": "out",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37222222",
+                    "message": "Request"
+                },
+                "5c76bb189accc": {
+                    "date": 1551285016,
+                    "amount": "100",
+                    "direction": "out",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37222222",
+                    "message": "HEY"
+                },
+                "5c76d567316d2": {
+                    "date": 1551291751,
+                    "amount": "1",
+                    "direction": "out",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37222222",
+                    "message": "test one"
+                }
+            },
+            "cards": {
+                "1093165907032374": {
+                    "type": "VISA DANKORT",
+                    "account": "5c63e61939ec9",
+                    "cvv": 230,
+                    "sent": 0
+                },
+                "8898519365943263": {
+                    "type": "VISA",
+                    "account": "5c63e61939db5",
+                    "cvv": 254,
+                    "sent": 0
+                },
+                "7704956366245437": {
+                    "type": "VISA",
+                    "account": "5c6ecc98327be",
+                    "cvv": 636,
+                    "sent": 0
+                }
+            },
+            "loans": {
+                "5c6eb674c2dea": {
+                    "date": 1550759540,
+                    "amount": 10000,
+                    "account": "5c63e61939db5",
+                    "dueDate": 1613917940,
+                    "approved": 0
+                },
+                "5c6ec5d06c78f": {
+                    "date": 1550763472,
+                    "amount": 20000,
+                    "account": "5c63e61939ec9",
+                    "dueDate": 1613921872,
+                    "approved": 0
+                },
+                "5c7288c75a688": {
+                    "date": 1551009991,
+                    "amount": 20000,
+                    "account": "5c6ecc98327be",
+                    "dueDate": 1614168391,
+                    "approved": 0
+                },
+                "5c728936b78e1": {
+                    "date": 1551010102,
+                    "amount": 5000,
+                    "account": "5c6ecce76c60c",
+                    "dueDate": 1582546102,
+                    "approved": 0
+                },
+                "5c72ae87ea1a5": {
+                    "date": 1551019655,
+                    "amount": 5000,
+                    "account": "5c63e61939ec9",
+                    "dueDate": 1614178055,
+                    "approved": 0
+                },
+                "5c76cfc801318": {
+                    "date": 1551290312,
+                    "amount": 5000,
+                    "account": "5c63e61939db5",
+                    "dueDate": 1582826312,
+                    "approved": 0
+                }
+            },
+            "requests": {
+                "5c72dcc61438a": {
+                    "date": 1551031494,
+                    "amount": "1000",
+                    "from": "37222222"
+                }
+            }
+        },
+        "37222222": {
+            "name": "BB",
+            "lastName": "BB",
+            "email": "teddcz@gmail.com",
+            "password": "$2y$10$WqFbjlzrkWu8hlCNsJXbtOGS1JtHFNOjoJLOHLtvwl3gwPaMkvT4q",
+            "cpr": "0101011234",
+            "active": true,
+            "activationKey": "ABC123",
+            "accounts": {
+                "5c63e61939420": {
+                    "balance": 8695,
+                    "type": "main",
+                    "currency": "DKK",
+                    "main": 1,
+                    "card": 6022359488085388
+                }
+            },
+            "transactions": {
+                "5c720774f09fd": {
+                    "date": 1550976884,
+                    "amount": "1000",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "lmfao"
+                },
+                "5c72aeb59b784": {
+                    "date": 1551019701,
+                    "amount": "1",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "lol"
+                },
+                "5c72af6a2be5d": {
+                    "date": 1551019882,
+                    "amount": "1000",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "nah"
+                },
+                "5c72b1eb11f98": {
+                    "date": 1551020523,
+                    "amount": "1000",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "nah"
+                },
+                "5c72ee8e94bc0": {
+                    "date": 1551036046,
+                    "amount": "10",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "test"
+                },
+                "5c72eec589f1c": {
+                    "date": 1551036101,
+                    "amount": "84",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "test2"
+                },
+                "5c72fa3062d80": {
+                    "date": 1551039024,
+                    "amount": 500,
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "request"
+                },
+                "5c72fafa7839b": {
+                    "date": 1551039226,
+                    "amount": 300,
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "request"
+                },
+                "5c742eb839eb6": {
+                    "date": 1551118076,
+                    "amount": "300",
+                    "direction": "out",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "39222222",
+                    "message": "lasttest"
+                },
+                "5c76bb189accc": {
+                    "date": 1551285016,
+                    "amount": "100",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "HEY"
+                },
+                "5c76d567316d2": {
+                    "date": 1551291751,
+                    "amount": "1",
+                    "direction": "in",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "37111111",
+                    "message": "test one"
+                },
+                "5c77900bc461e": {
+                    "date": 1551339536,
+                    "amount": "1",
+                    "direction": "out",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "phone": "10111111",
+                    "message": "test"
+                }
+            },
+            "cards": {
+                "6022359488085388": {
+                    "type": "VISA",
+                    "account": "5c63e61939420",
+                    "cvv": 267,
+                    "sent": 0
+                }
+            },
+            "loans": {},
+            "requests": {
+                "5c72dcc61439e": {
+                    "date": 1551031494,
+                    "amount": "1000",
+                    "from": "37111111"
+                },
+                "5c72ef18e3c4f": {
+                    "date": 1551036184,
+                    "amount": "5000",
+                    "from": "37111111"
+                },
+                "5c76fe7f813ac": {
+                    "date": 1551302271,
+                    "amount": "1000",
+                    "from": "37111111"
+                }
+            }
+        }
+    }
+}

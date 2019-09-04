@@ -1,0 +1,482 @@
+/* Main Styling + vars ********************************************************** */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --color-white: #fff;
+    --color-main: #005B94;
+    --color-sec: #85C3EC;
+    --color-grey-prim: #6A6777;
+    --color-grey-sec: #777879;
+    --color-bg: rgb(241, 241, 241);
+    --color-grey-light: #B9B9B9;
+
+    --color-green: #01B25A;
+    --color-red: #FF4348;
+
+    --color-border-prim: #298DAC;
+
+    --gradient-prim: linear-gradient(0deg, rgba(10,73,106,1) 0%, rgba(33,137,188,1) 100%);
+    --gradient-prim-inv: linear-gradient(180deg, rgba(10,73,106,1) 0%, rgba(33,137,188,1) 100%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: var(--color-bg);
+    color: var(--color-grey-sec);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--color-grey-prim);
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 1.5em .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100vw;
+    height: 60px;
+    background-color: var(--color-main);
+    color: var(--color-grey-light);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+
+nav a:hover,
+nav a:active {
+    color: var(--color-white);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light {
+    color: var(--color-grey-light);
+}
+
+.hidden {
+    display: none;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.money {
+    color: var(--color-green);
+}
+
+/* Buttons ************************* */
+
+button {
+    border: none;
+    padding: 1em 1.5em;
+    margin: 1em;
+}
+
+button,
+.pointer {
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 1.5rem;
+    display: inline-block;
+}
+
+.button-main {
+    background: var(--color-main);
+    color: var(--color-white);
+}
+
+.button-sec {
+    background: var(--color-red);
+    color: var(--color-white);
+}
+
+.button-main:hover,
+.button-main:active {
+    background: var(--gradient-prim-inv);
+}
+
+.nav-button {
+    color: var(--color-grey-light);
+    background-color: var(--color-main);
+    height: 100%;
+}
+
+.nav-button:hover,
+.nav-button:active {
+    color: var(--color-white);
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.drop-shadow-dark {
+    -webkit-box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.33);
+    box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.33);
+}
+
+.drop-shadow-main {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+}
+
+/* Boxes and Box layout ****************************************************************/
+
+.box {
+    position: relative;
+    text-align: start;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.box.scroll {
+    overflow-y: scroll;
+}
+
+.box p {
+    font-size: 12px;
+    color: var(--color-grey-light);
+}
+
+.box h2,
+.box h3 {
+    color: var(--color-main);
+}
+
+.box .money {
+    color: var(--color-green);
+}
+
+.box > div {
+    padding: 1.2rem;
+}
+
+.box hr {
+    margin-top: 1rem;
+    border-top: 1px solid var(--color-grey-light);
+}
+
+.box .box-header {
+    display: flex;
+    height: 60px;
+}
+
+.box-header-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: var(--color-main);
+}
+
+.box .box-footer {
+    height: 60px;
+    color: var(--color-white);
+    background-color: var(--color-main);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .box-footer.green {
+    background-color: var(--color-green);
+}
+
+/* Rows layout ****************************************************************/
+
+.table-row {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-grey-light);
+}
+
+.table-row > * {
+    padding: 1rem;
+}
+
+.row-header {
+    border-right: 1px solid var(--color-grey-light);
+}
+
+.row-footer {
+    position: absolute;
+    right: 0;
+    width: 15%;
+    border-left: 1px solid var(--color-grey-light);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Page Layout ********************************************************** */
+
+.header {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    background: var(--color-main);
+}
+
+section {
+    margin-top: 80px;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+.nav-profile {
+    display: flex;
+}
+
+/* Pages grid ********************************************************** */
+
+.page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: [sidebar] 1fr [content] 3fr;
+    grid-template-rows: 60vh auto;
+    grid-gap: 30px;
+}
+
+.cards-content {
+    display: grid;
+    grid-template-columns: [content] 2fr [sidebar] 3fr;
+    grid-template-rows: 60vh auto;
+    grid-gap: 30px;
+}
+
+.sub-grid {
+    display: grid;
+    grid-gap: 30px;
+}
+
+.item {
+    position: relative;
+    border-radius: 8px;
+    background-color: var(--color-white);
+}
+
+.aside {
+    grid-column: sidebar;
+}
+
+.main {
+    grid-column: content;
+}
+
+.div-show-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.grid-span-full {
+    grid-column: span 2;
+    margin-bottom: 1.5em;
+}
+
+/* Forms ********************************************************** */
+
+form {
+    position: relative;
+}
+
+form > *:not(button) {
+    display: block;
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    color: var(--color-grey-light);
+}
+
+input {
+    color: var(--color-main);
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid var(--color-grey-prim);
+    margin-bottom: 20px;
+}
+
+/* Custom Select **************************************************/
+
+.s-hidden {
+    visibility:hidden;
+    padding-right:10px;
+}
+
+.select {
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-grey-prim);
+}
+
+.styledSelect {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:white;
+    padding: 5px 0;
+}
+
+.styledSelect:after {
+    content:"";
+    width:0;
+    height:0;
+    border:5px solid transparent;
+    border-color:grey transparent transparent transparent;
+    position:absolute;
+    top:40%;
+    right:5px;
+}
+
+.styledSelect:active, .styledSelect.active {
+    background-color: var(--color-grey-light);
+}
+
+.options {
+    display:none;
+    position:absolute;
+    top:100%;
+    right:0;
+    left:0;
+    z-index:9;
+    margin:0 0;
+    padding: 0 0;
+    list-style: none;
+    border-bottom: 1px solid var(--color-grey-prim);
+    background-color: var(--color-white);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+}
+
+.options li {
+    margin:0 0;
+    padding:10px 5px;
+    color: var(--color-main);
+}
+.options li:hover {
+    background-color: var(--color-sec);
+    color:white;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.index * {
+    margin: 1em 0;
+}
+
+.index .box {
+    width: 50vw;
+    padding: 1rem;
+    background-color: white;
+}
+
+.index .box > *{
+    margin: .5rem;
+}
+
+.admin-page {
+    margin-top: 80px;
+}
+
+.admin-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.admin-grid .box {
+    background-color: white;
+    padding: 1rem;
+}
+
+.admin-grid .box .button,
+.button-a {
+    padding: 1rem 1.5rem;
+}
+
+.form-div {
+    width: 50%;
+}

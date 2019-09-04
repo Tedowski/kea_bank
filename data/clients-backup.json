@@ -1,0 +1,202 @@
+{
+    "data": {
+        "37111111": {
+            "name": "AA",
+            "lastName": "AA",
+            "email": "teddcz@gmail.com",
+            "password": "$2y$10$WqFbjlzrkWu8hlCNsJXbtOGS1JtHFNOjoJLOHLtvwl3gwPaMkvT4q",
+            "cpr": "0101011234",
+            "active": 1,
+            "activationKey": "ABC123",
+            "accounts": {
+                "5c63e61939db5": {
+                    "balance": 41095,
+                    "type": "main",
+                    "currency": "DKK",
+                    "main": 1,
+                    "card": 6022359488085376
+                },
+                "5c63e61939ec9": {
+                    "balance": 0,
+                    "type": "saving",
+                    "currency": "DKK",
+                    "main": 0,
+                    "card": 3000066984703775
+                },
+                "5c6ecc98327be": {
+                    "balance": 0,
+                    "type": "loan",
+                    "currency": "DKK",
+                    "main": 0
+                },
+                "5c6ecce76c60c": {
+                    "balance": 0,
+                    "type": "saving",
+                    "currency": "USD",
+                    "main": 0
+                }
+            },
+            "transactionsNotRead": {},
+            "transactions": {
+                "5c66b8ce68069": {
+                    "date": 1550235854,
+                    "amount": "10",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "fromPhone": "37111111",
+                    "message": "lol"
+                },
+                "5c6efac9b7b63": {
+                    "date": 1550777033,
+                    "amount": "10000",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "fromPhone": "37111111",
+                    "message": null
+                }
+            },
+            "cards": {
+                "6022359488085376": {
+                    "type": "VISA DANKORT",
+                    "account": "5c63e61939db5",
+                    "cvv": 267,
+                    "sent": 0
+                },
+                "3000066984703775": {
+                    "type": "MASTERCARD",
+                    "account": "5c63e61939ec9",
+                    "cvv": 714,
+                    "sent": 0
+                }
+            },
+            "loans": {
+                "5c6eb674c2dea": {
+                    "date": 1550759540,
+                    "amount": 10000,
+                    "account": "5c63e61939db5",
+                    "dueDate": 1613917940,
+                    "approved": 0
+                },
+                "5c6ec5d06c78f": {
+                    "date": 1550763472,
+                    "amount": 20000,
+                    "account": "5c63e61939ec9",
+                    "dueDate": 1613921872,
+                    "approved": 0
+                }
+            },
+            "requests": {}
+        },
+        "37222222": {
+            "name": "BB",
+            "lastName": "BB",
+            "email": "b@b.com",
+            "password": "$2y$10$sSG6DA0j4U2Ac7NsMTN1n.EyYjLLyludQusweTASHnmCETwWjFUeG",
+            "cpr": "0202021234",
+            "active": 1,
+            "activationKey": "ABC666",
+            "attemptsLeft": 3,
+            "lastLoginAttempt": 1550572267,
+            "accounts": {
+                "5c63e64320d1a": {
+                    "balance": 20000,
+                    "type": "main",
+                    "currency": "DKK",
+                    "main": 1
+                }
+            },
+            "transactionsNotRead": {
+                "5c7015d402634": {
+                    "date": 1550849492,
+                    "amount": "10000",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "fromPhone": "99999999",
+                    "message": null
+                },
+                "5c70161076eff": {
+                    "date": 1550849552,
+                    "amount": "10000",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "fromPhone": "99999999",
+                    "message": null
+                },
+                "5c70161b223b3": {
+                    "date": 1550849563,
+                    "amount": "10000",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "fromPhone": "99999999",
+                    "message": null
+                }
+            },
+            "transactions": {
+                "5c7015d402634": {
+                    "date": 1550849492,
+                    "amount": "10000",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "fromPhone": "99999999",
+                    "message": null
+                },
+                "5c70161076eff": {
+                    "date": 1550849552,
+                    "amount": "10000",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "fromPhone": "99999999",
+                    "message": null
+                },
+                "5c70161b223b3": {
+                    "date": 1550849563,
+                    "amount": "10000",
+                    "name": "Jon",
+                    "lastName": "Doe",
+                    "fromPhone": "99999999",
+                    "message": null
+                }
+            },
+            "requests": {}
+        },
+        "37333333": {
+            "name": "CC",
+            "lastName": "CC",
+            "email": "c@c.com",
+            "password": "$2y$10$f5x\/mq3g2m8F18fjw6DVU.bk9zZOErRJsa23ICjicV\/temnhjOERG",
+            "cpr": "0303031234",
+            "active": 1,
+            "activationKey": "FSH420",
+            "attemptsLeft": 3,
+            "lastLoginAttempt": 1550572267,
+            "accounts": {
+                "5c63e660bca2f": {
+                    "balance": 0,
+                    "type": "main",
+                    "currency": "DKK",
+                    "main": 1
+                }
+            },
+            "transactionsNotRead": {},
+            "transactions": {}
+        },
+        "37444444": {
+            "name": "DD",
+            "lastName": "DD",
+            "email": "d@d.com",
+            "password": "$2y$10$W7upP9BvJyZxOCvdWjKY3e7NlPjxLezGWqQi0XAcj0fnfxKLsKdcm",
+            "cpr": "0404041234",
+            "active": 0,
+            "activationKey": "5c6a723f50a59",
+            "attemptsLeft": 3,
+            "lastLoginAttempt": 1550572267,
+            "accounts": {
+                "5c6a723f50b7f": {
+                    "balance": 0
+                }
+            },
+            "transactionsNotRead": {},
+            "transactions": {}
+        }
+    }
+}
